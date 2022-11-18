@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 2rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #cde0f6;
+}
+
+p:first-child {
+    color: darkgreen;
+    animation-name: cColor;
+}
+
+@keyframes cColor {
+
+    from {
+        color: darkgreen;
+    }
+
+    25% {
+        color: blue;
+    }
+
+    50% {
+        color: purple;
+    }
+
+    75% {
+        color: #ec7412;
+    }
+
+    to {
+        color: red;
+    }
+
+}
